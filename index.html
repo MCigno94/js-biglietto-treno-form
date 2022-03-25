@@ -13,13 +13,106 @@
 
     <body>
 
-        <div class="container ticket">
-            <div class="ticketHeader"></div>
-            <!-- /.ticketHeader -->
-            <div class="ticketMain"></div>
-            <!-- /.ticketMain -->
+        <div class="ticket">
+            <div class="container p-5">
+                <h2 class="text-uppercase text-white text-center mb-3">calcolare il prezzo del tuo biglietto</h2>
+                <div class="ticketHeader text-center bg-white pb-3">
+                    <div class="row row-cols-5 justify-content-center gap-5 pb-5">
+                        <div class="col">
+                            <h6 class="fullName textBlue fw-bold pt-3 h-50">
+                                Nome e Cognome
+                            </h6>
+                            <!-- /.fullName -->
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control text-center" placeholder="Digita qui..." aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col">
+                            <h6 class="kmTraveled textBlue fw-bold pt-3 h-50">
+                                Km da percorrere
+                            </h6>
+                            <!-- /.kmTraveled -->
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control text-center" placeholder="Digita qui..." aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col">
+                            <h6 class="age textBlue fw-bold pt-3 h-50">
+                                Fascia d'età
+                            </h6>
+                            <!-- /.age -->
+                            <select class="form-select text-center" aria-label="Default select example">
+                                <option value="1">Maggiorenne</option>
+                                <option value="2">Over 65</option>
+                            </select>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <!-- /.row -->
+                    <div class="buttonAction">
+                        <button class="textBlue fw-bold rounded-3 border-1 pb-1 px-2 mx-1">Genera</button>
+                        <button class="textBlue fw-bold rounded-3 border-1 pb-1 px-2 mx-1">Annulla</button>
+                    </div>
+                    <!-- /.buttonAction -->
+                </div>
+                <!-- /.ticketHeader -->
+
+                <h2 class="text-uppercase text-white text-center mt-3">il tuo biglietto</h2>
+                <div class="ticketMain bg-white p-3">
+                    <div class="container">
+                        <div class="row pb-1 px-2">
+                            <h4 class="text-uppercase fw-bold ps-0">dettagli passeggero</h4>
+                            <div class="col-3 p-3 bgSkyBlue">
+                                <h5 class="passengerName text-uppercase fw-bold">nome <br> passeggero</h5>
+                                <!-- /.passengerName -->
+                                <div class="fullName fs-4 fw-bold">Pippo</div>
+                                <!-- /.fullName -->
+                            </div>
+                            <!-- /.col-3 -->
+                            <div class="col-3 px-4 pt-4">
+                                <h5 class="offer fw-bold h-25 pb-5 mb-5">Offerta</h5>
+                                <!-- /.offer -->
+                                <div class="discount fs-5">
+                                    Sconto
+                                    <div class="ageSelect">Minorenne</div>
+                                    <!-- /.ageSelect -->
+                                </div>
+                                <!-- /.discount -->
+                            </div>
+                            <!-- /.col-3 -->
+                            <div class="col-2 px-4 pt-4">
+                                <h5 class="description fw-bold h-25 pb-5 mb-5">Carrozza</h5>
+                                <!-- /.description -->
+                                <div class="carriage pt-4">7</div>
+                                <!-- /.carriage -->
+                            </div>
+                            <!-- /.col-2 -->
+                            <div class="col-2 px-4 pt-4">
+                                <h5 class="description fw-bold h-25 pb-5 mb-5">Codice <br>CP</h5>
+                                <!-- /.description -->
+                                <div class="codeCP pt-4">45687</div>
+                                <!-- /.codeCP -->
+                            </div>
+                            <!-- /.col-2 -->
+                            <div class="col-2 px-4 pt-4">
+                                <h5 class="description fw-bold h-25 pb-5 mb-5">Costo biglietto</h5>
+                                <!-- /.description -->
+                                <div class="ticketPrice pt-4">2€</div>
+                                <!-- /.ticketPrice -->
+                            </div>
+                            <!-- /.col-2 -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.ticketMain -->
+            </div>
+            <!-- /.container -->
         </div>
-        <!-- /.container.ticke -->
+        <!-- /.ticket -->
 
 
 
@@ -32,7 +125,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
         <!-- My JavaScript -->
-        <script src="./assets/js/main.js"></script>
+        <!-- <script src="./assets/js/main.js"></script> -->
     </body>
 
 </html>

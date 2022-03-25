@@ -1,0 +1,32 @@
+/* #region UTILITY */
+
+.textBlue {
+    color: cornflowerblue;
+}
+
+.bgSkyBlue {
+    background-color: rgba(0, 185, 255, 0.5);
+}
+
+.ticketMain [class*="col-"] {
+    border-top: 2px solid cornflowerblue;
+    border-bottom: 2px solid cornflowerblue;
+}
+
+
+/* #endregion UTILITY */
+
+.ticket {
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+.ticketHeader input,
+.ticketHeader .form-select {
+    border: 2px solid cornflowerblue;
+}
+
+.ticketHeader,
+.ticketMain {
+    border-radius: 10px;
+}
