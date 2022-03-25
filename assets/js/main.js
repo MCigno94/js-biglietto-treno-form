@@ -55,7 +55,11 @@ document.querySelector(".fullName").innerHTML = yourName;
 
 document.querySelector(".ageSelect").innerHTML = message;
 
-document.querySelector(".ticketPrice").innerHTML = ticketPrice + "€";
+document.querySelector(".ticketPrice").innerHTML = ticketPrice.toFixed(2) + "€";
+
+document.querySelector(".carriage").innerHTML = Math.floor((Math.random() * 10) + 1);
+
+document.querySelector(".codeCP").innerHTML = Math.floor((Math.random() * 99999) + 10001);
 
 // genera biglietto
 const elementTicketMain = document.querySelector('.ticketMain');
@@ -65,6 +69,6 @@ const elementAnnullaButton = document.querySelector('.annulla');
 elementGeneraButton.addEventListener('click', function() {
     elementTicketMain.classList.remove('ticketOff');
 });
-elementannullaButton.addEventListener('click', function() {
+elementAnnullaButton.addEventListener('click', function() {
     elementTicketMain.classList.add('ticketOff');
 });
