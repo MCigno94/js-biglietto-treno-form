@@ -30,3 +30,7 @@
 .ticketMain {
     border-radius: 10px;
 }
+
+.ticketOff {
+    display: none;
+}
